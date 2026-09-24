@@ -91,12 +91,12 @@ const Hero = () => {
             Need a Helper?
             <span className="block">Book a</span>
 
-            <span
-              className="block min-h-[1.1em] text-6xl font-extrabold text-[#FFB627] drop-shadow-[0_0_18px_rgba(255,182,39,0.35)] transition-opacity duration-150 ease-out"
-              aria-label={heroBrandText}
-            >
-              {typedBrandText}
-            </span>
+            <span 
+  className="block min-h-[1.1em] text-4xl font-extrabold text-[#FFB627] drop-shadow-[0_0_18px_rgba(255,182,39,0.35)] transition-opacity duration-150 ease-out sm:text-6xl" 
+  aria-label={heroBrandText} 
+> 
+  {typedBrandText} 
+</span>
           </h1>
 
           <p className="mt-3 max-w-xl text-xs leading-5 text-slate-300 sm:mt-7 sm:text-lg sm:leading-7">
