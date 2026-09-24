@@ -37,8 +37,8 @@ const Navbar = () => {
 />
 
             <div className="ml-3 text-[17px] font-extrabold tracking-wide text-[#061a33]">
-              SUPER<span className="text-orange-500">HEROOO</span>
-            </div>
+  SUPER<span className="text-[#FFB627]">HEROOO</span>
+</div>
           </a>
 
           {/* Desktop Navigation */}
@@ -60,7 +60,7 @@ const Navbar = () => {
               href="#contact"
               className="rounded-xl bg-[#061a33] px-5 py-3 text-sm font-bold text-white transition duration-300 hover:bg-orange-500 hover:shadow-lg hover:shadow-orange-500/20"
             >
-              Get Started
+              Login
             </a>
           </div>
 
